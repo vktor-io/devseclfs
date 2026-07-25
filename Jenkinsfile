@@ -38,9 +38,15 @@ pipeline {
             }
           }
         }
+        stage('OCI Image BnP') {
+          steps {
+            container('kaniko') {
+              sh '/kaniko/executor -f `pwd`/Dockerfile -c `pwd` --cache=true --destination=lfs262acr9078.azurecr.io/dso-demo:latest'
+            }
+          }
+        }
       }
     }
-
     stage('Deploy to Dev') {
       steps {
         // TODO
