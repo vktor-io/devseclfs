@@ -10,6 +10,12 @@ spec:
       command:
         - cat
       tty: true
+      env:
+        - name: NVD_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: nvd-api-key
+              key: apikey
       volumeMounts:
         - name: m2
           mountPath: /root/.m2/
