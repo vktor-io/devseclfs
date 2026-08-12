@@ -41,6 +41,7 @@
     :why: 
     :versions:
     - 1.2.3
+    - 1.5.11
     :when: 2020-05-31 15:28:30.302764000 Z
 - - :approve
   - logback-classic
@@ -48,6 +49,7 @@
     :why: 
     :versions:
     - 1.2.3
+    - 1.5.11
     :when: 2020-05-31 15:29:03.621478000 Z
 - - :approve
   - jakarta.xml.bind-api
@@ -55,6 +57,7 @@
     :why: 
     :versions:
     - 2.3.3
+    - 4.0.2
     :when: 2020-05-31 15:29:19.300525000 Z
 - - :approve
   - jakarta.el
@@ -69,4 +72,5 @@
     :why: 
     :versions:
     - 1.3.5
+    - 2.1.1
     :when: 2020-05-31 15:29:53.045616000 Z
